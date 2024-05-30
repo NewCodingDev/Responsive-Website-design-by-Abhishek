@@ -1,0 +1,171 @@
+@media screen and (max-width: 990px) {
+  :root {
+    --padding-inline-input:40px;
+
+  }
+  .nav-toggle {
+    font-size: 25px;
+    display: block;
+    margin-inline: 15px ; 
+  }
+  
+  .nav-link {
+    position: absolute;
+    background-color: white;
+    left: -100%;
+    top: 100%;
+    padding-block: 40px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 5px 30px var(--secondary-txt-color);
+  }
+
+  .active {
+    left: 0;
+  }
+
+  .main-nav{
+    overflow: initial;
+  }
+
+  .nav-link ul {
+    flex-direction: column;
+  }
+
+  .examples-container {
+    gap: 20px;
+  }
+
+  .examples-card {
+    width: 48%;
+    height: 180px;
+  }
+
+  .cta {
+    padding-block:80px;
+  }
+
+  .features-card {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first-section {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .first-left {
+    max-width: 100%;
+    text-align: center;
+}
+
+.primary-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-container {
+  flex-direction: column;
+}
+
+.feature-txt {
+  text-align: center;
+}
+
+.examples-head {
+  text-align: center;
+}
+
+.examples-container {
+  gap: 20px;
+}
+
+.examples-card {
+  width: 46%;
+  height: 180px;
+}
+
+.cta-container{
+  height: 50vh;
+}
+
+.cta {
+  padding-block: 50px;
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.link-column h4 {
+  font-size: 25px;
+}
+
+.link-column {
+  align-items:center ;
+}
+
+.subfooter-container {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 425px) {
+  :root {
+    --padding-inline-input:10px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+  
+  h2 {
+      font-size: 1.5rem;
+  }
+  
+  h3 {
+      font-size: 1rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  .features-card {
+    gap: 5px;
+    width: 100%;
+  }
+
+  .features {
+    background-size: 100%;
+    background-position: top;
+  }
+
+  .features-box {
+    margin-top:60px;
+  }
+
+  .examples-card {
+    width: 100%;
+  }
+  
+  .examples-container {
+    gap: 10px;
+  }
+
+  .cta {
+    padding-bottom: 50px;
+  }
+
+  .cta-container {
+    height: 80%;
+  }
+
+}
